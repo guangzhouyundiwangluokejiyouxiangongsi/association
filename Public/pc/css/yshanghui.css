@@ -316,7 +316,7 @@ ul,ol li{list-style: none;}
 
 /*最新动态*/
 .Contactusb{width:1200px;margin:0 auto;}
-.Contactusb p {font-size:12px;color:#333;}
+.Contactusb p {font-size:14px;color:#333;}
 .Contactusb p  a{color:#333;}
 .Contactusb p  a:hover{color:red;}
 .Contactusb .commerce{text-align: center;margin-top: 30px;}
@@ -350,9 +350,9 @@ ul,ol li{list-style: none;}
 .rollboxss{width:1200px;margin:0 auto;}
 .rollboxss h2{padding-top: 50px;margin-bottom: 50px;font-size:20px;font-family: '微软雅黑';text-align: center;color:#333333;}
 .scroll_areass{position:relative;width:100%;}
-.scroll_listss{overflow:hidden;position:relative;width:1040px;margin:0 auto;height:410px;}
+.scroll_listss{overflow:hidden;position:relative;width:1040px;margin:0 auto;height:450px;}
 .scroll_ulss{width:9999px;position:relative;overflow:hidden;clear:both;*zoom:1;}
-.scroll_ulss li{width:250px;height:197px;margin:5px;text-align:center;list-style:none;float:left;position:relative;}
+.scroll_ulss li{width:250px;height:210px;margin:5px;text-align:center;list-style:none;float:left;position:relative;}
 .scroll_ulss li h2{position:absolute;top:120px;;height:30px;background:rgba(0,0,0,.7);width:100%;text-align: center;line-height: 30px;color:#fff;font-size:14px;}
 .scroll_ulss li img{width:250px;height:197px;}
 .scroll_ulss li a{color:#333;}
