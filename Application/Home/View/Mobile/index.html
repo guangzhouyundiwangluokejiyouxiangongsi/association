@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>云商会首页</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/index.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/landscape.css">
+	<link rel="stylesheet" href="__PUBLIC__/mobile/css/swiper.min.css">
+	<include file="Mobile/header" />
+	<div class="y_content">
+		<!-- banner -->
+		<div class="swiper-container">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide "><img src="__PUBLIC__/mobile/img/banner1.png"></div>
+		    <div class="swiper-slide "><img src="__PUBLIC__/mobile/img/banner1.png"></div>
+		    <div class="swiper-slide "><img src="__PUBLIC__/mobile/img/banner1.png"></div>
+		  </div>
+		</div>
+		<!-- 关于商会 -->
+		<div class="y_about_txt">
+			<h3 class="y_title">
+				{$about.title}
+			</h3>
+			<p>{$about.content}</p>
+			<a href="about.html">查看更多</a>
+		</div>
+		<!-- 商会理念 -->
+		<div class="y_idea">
+			<h3 class="y_title">
+				{$linian.title}
+			</h3>
+			<p>{$linian.content}</p>
+		</div>
+		<!-- 加入优势 -->
+		<div class="y_advantage">
+			<div class="y_title">
+				<span>{$jiaru.title}</span>
+				<a href="advantage.html">详情查看</a>
+			</div>
+			<ul>
+				<li>
+					<a href="join.html">
+						<div class="img">
+							<img src="{$jiaru.thumb}">
+						</div>
+						<h3>
+							{$jiaru.content}
+						</h3>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 商会资讯  -->
+		<div class="y_message">
+			<div class="y_title">
+				<span>商会资讯</span>
+				<a href="information.html">更多</a>
+			</div>
+			<ul>
+				<foreach name="zixun" item="vv">
+				<li>
+					<a href="/Mobile/information_detail?article_id={$vv.article_id}">
+						<div class="img">
+							<img src="{$vv.thumb}">
+						</div>
+						<div class="txt">
+							<h3>{$vv.title}</h3>
+							<p>{$vv.content}</p>
+							<span>{$vv.click} 次浏览</span>
+						</div>
+					</a>
+				</li>
+				</foreach>
+			</ul>
+		</div>
+		<!-- 最新动态  -->
+		<div class="y_message">
+			<div class="y_title">
+				<span>最新动态</span>
+				<a href="information.html">更多</a>
+			</div>
+			<ul>
+				<foreach name="dongtai" item="v">
+				<li>
+					<a href="/Mobile/information_detail?article_id={$v.article_id}">
+						<div class="img">
+							<img src="{$v.thumb}" >
+						</div>
+						<div class="txt">
+							<h3>{$v.title}</h3>
+							<p>{$v.content}</p>
+							<span>{$v.click} 次浏览</span>
+						</div>
+					</a>
+				</li>
+				</foreach>
+			</ul>
+		</div>
+		<!--  商会承诺 -->
+		<div class="y_message">
+			<div class="y_title">
+				<span>商会承诺</span>
+				<!-- <a href="information.html">详情查看</a> -->
+			</div>
+			<ul>
+				<li>
+					<a href="javascript:;">
+						<div class="img">
+							<img src="{$chengnuo.thumb}" >
+						</div>
+						<div class="txt">
+							<h3>{$chengnuo.title}</h3>
+							<p>{$chengnuo.content}</p>
+							<!-- <span>451 次浏览</span> -->
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<include file="Mobile/footer" />
+<script src="__PUBLIC__/mobile/js/swiper.min.js"></script>
+<script type="text/javascript">
+  var mySwiper = new Swiper('.swiper-container',{
+    loop: true,
+	autoplay: 3000,
+	autoplayDisableOnInteraction : false
+  });
+</script>
+</html>

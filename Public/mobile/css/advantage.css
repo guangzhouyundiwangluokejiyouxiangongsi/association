@@ -1,0 +1,77 @@
+.y_content{margin: 0.741rem auto 0.833rem;background: #e4e5e9;}
+
+.y_content .y_banner img{width: 100%;display: block;}
+/*免费权威认证*/
+.y_content .y_identification{background: #ffffff;padding: 0.3368rem 0.1684rem 0.5895rem;text-align: center;}
+.y_content .y_identification h2{font-size:0.2526rem;color:#eb3436;text-shadow:0 3px 6px rgba(250,0,0,.5);font-weight:200;text-align:center;}
+.y_content .y_identification .icon{width: 0.4211rem;margin: 0.2526rem 0;}
+.y_content .y_identification .y_title h3{font-size: 0.2358rem;color: #333333;font-weight: normal;}
+.y_content .y_identification .y_title p{font-size: 0.2021rem;color: #666;line-height: 0.3032rem;text-align: center;margin: 0.1684rem 0;}
+.y_content .y_identification .y_title img{width: 100%;max-width: 6.7368rem;}
+/*网站建设*/
+.y_content .y_build{color: #FFFFFF;background: #eb3436;padding: 0.3032rem 0.1684rem;}
+.y_content .y_build h3{font-size: 0.2358rem;font-weight: normal;line-height: 0.3705rem;}
+.y_content .y_build .txt{overflow: hidden;padding-right: 2.8632rem;}
+.y_content .y_build .txt img{margin-right: -2.8632rem;float: right;width:2.7200rem;height:2.0295rem;  }
+.y_content .y_build .txt p{float: left;}
+.y_content .y_build p{font-size: 0.2021rem;}
+.y_content .y_build ul li{font-size: 0.2021rem;line-height: 0.3032rem;padding-left: 0.2526rem;}
+.y_content .y_build ul li p{font-size: 0.2021rem;}
+.y_content .y_build ul li span{margin-left: -0.2526rem;float: left;}
+/*免费优化推广*/
+.y_content .y_extend{background: #ffffff;padding: 0.5053rem 0.1684rem;}
+.y_content .y_extend .y_title h3{font-size: 0.2358rem;color: #333333;font-weight: normal;text-align: center;}
+.y_content .y_extend .y_title p{font-size: 0.2021rem;color: #666;line-height: 0.3032rem;text-align: center;margin: 0.1684rem 0;}
+.y_content .y_extend ul{overflow: hidden;}
+.y_content .y_extend ul li{float: left;width: 42%;padding:0 4%;}
+.y_content .y_extend ul li .img{text-align: center;padding:0.1684rem 0;}
+.y_content .y_extend ul li .img img{width: 1.0442rem;margin: 0 auto;display: block;}
+.y_content .y_extend ul li h3{font-size: 0.2189rem;color: #333333;font-weight: normal;text-align: center;}
+.y_content .y_extend ul li p{font-size: 0.1684rem;color: #666;line-height: 0.2526rem;text-align: center;}
+/*免费金牌商家展示企业*/
+.y_content .y_gold{background: #FFFFFF;text-align: center;padding:0 0.1684rem; }
+.y_content .y_gold .y_title h3{font-size: 0.2358rem;color: #333333;font-weight: normal;text-align: center;}
+.y_content .y_gold .y_title p{font-size: 0.2021rem;color: #666;line-height: 0.3032rem;text-align: center;margin: 0.1684rem 0;}
+.y_content .y_gold .y_title img{width: 100%;max-width: 6.7368rem;}
+/*免费参加定期企业联盟云商研讨会*/
+.y_content .y_proseminar{background:url(../img/y_proseminar_bg.png) no-repeat center bottom #FFFFFF ;text-align: center;padding:0.5053rem 6% 1.3474rem; background-size: 100%; }
+.y_content .y_proseminar .y_title h3{font-size: 0.2358rem;color: #333333;font-weight: normal;text-align: center;}
+.y_content .y_proseminar .y_title p{font-size: 0.2021rem;color: #666;line-height: 0.3032rem;text-align: center;margin: 0.1684rem 0;}
+/*企业APP*/
+.y_content .redbg{background: #eb3436;}
+.y_content .y_app{color: #FFFFFF;padding:0.3368rem 0.1684rem 0.5053rem;overflow: hidden;padding-right: 2.9474rem;}
+.y_content .y_app .txt{float: left;}
+.y_content .y_app .txt h3{font-size: 0.2358rem;font-weight: normal;}
+.y_content .y_app .txt p{font-size: 0.2021rem;margin-top: 0.1684rem;line-height: 0.3032rem;}
+.y_content .y_app .txt a{display: block;margin-top: 0.1347rem;height: 0.4884rem;}
+.y_content .y_app .txt a img{width: 100%;width: 1.8105rem;float: right;}
+.y_content .y_app .txt .y_btn{text-align: right;}
+.y_content .y_app .img img{width: 2.7116rem;height: 2.9811rem;margin-right: -2.9474rem;float: right;}
+/*首年免费为企业出版黄页杂志并冠名信息 */
+.y_content .magazine{color: #FFFFFF;padding:0 0.4211rem;}
+.y_content .magazine  h3{font-size: 0.2358rem;line-height: 0.3032rem;text-align: center;font-weight: normal;}
+.y_content .magazine  p{font-size: 0.2021rem;line-height: 0.3032rem;text-align: center;margin: 0.1684rem 0;}
+.y_content .magazine .img {text-align: center;}
+.y_content .magazine .img img{margin-bottom: -0.8421rem;width: 100%;max-width: 4.8253rem;}
+/*免费推送杂志到各大高端场所*/
+.y_content .y_extend_magazine{background:url(../img/y_extend_magazine_bg.png) repeat-x center bottom #FFFFFF ;text-align: center;padding:1.3474rem 6% 1.3474rem;background-size: 100%;  }
+.y_content .y_extend_magazine .y_title h3{font-size: 0.2358rem;color: #333333;font-weight: normal;text-align: center;}
+.y_content .y_extend_magazine .y_title p{font-size: 0.2021rem;color: #666;line-height: 0.3032rem;text-align: center;margin: 0.1684rem 0;}
+/*免费协助企业曝光新媒体100篇软文*/
+.y_content .y_news{background: #FFFFFF;padding:0 0.1684rem 0.5558rem; }
+.y_content .y_news .y_title h3{padding-top: 0.5053rem; ;font-size: 0.2358rem;color: #333333;font-weight: normal;text-align: center;}
+.y_content .y_news .y_title p{font-size: 0.2021rem;color: #666;line-height: 0.3032rem;text-align: center;margin: 0.1684rem 0;}
+.y_content .y_news .y_title h3 span{color: #e72838;}
+.y_content .y_news .y_title a{color: #FFFFFF;background: #eb3436;line-height: 0.5726rem;height: 0.5726rem;width: 2.8632rem;margin: 0 auto;display: block;font-size: 0.2021rem;text-align: center;margin-top: 0.2021rem;}
+.y_content .y_news .link{text-align: center;}
+.y_content .y_news ul{overflow: hidden;display: inline-block;}
+.y_content .y_news ul li{float: left;width: 50%;} 
+.y_content .y_news ul li img{width: 2.5263rem;height: 0.8421rem;}
+.y_content .y_news .map{text-align: center;}
+.y_content .y_news .map img{width: 100%;max-width: 6.7368rem;}
+/*底部*/
+.y_content .y_bottom{padding: 0.2863rem 0;}
+.y_content .y_bottom p{color: #999999;font-size: 0.1684rem;text-align: center;line-height: 0.2189rem;}
+
+
+

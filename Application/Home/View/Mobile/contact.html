@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" /> 
+	<title>联系我们</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/contact.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/landscape.css">
+	<include file="header" />
+	<div class="y_content">
+		<!-- banner -->
+		<div class="y_banner">
+			<img src="__PUBLIC__/mobile/img/contact_banner.png">
+		</div>
+		<!-- 联系我们 -->
+		<div class="y_contact_txt">
+			<h3 class="y_title">
+				联系我们
+			</h3>
+			<h2>广州市云狄网络科技有限公司</h2>
+			<p>联系QQ:3404902361</p>
+			<p>联系电话：13711012007</p>
+			<p>联系邮箱：3404902361@qq.com</p>
+			<p>地址：广州市天河区科韵路科韵大厦7层</p>
+		</div>
+		<!-- 地图 -->
+		<div class="map">
+			<div style="width:100%;height:300px;border:#ccc solid 1px; left: 20px;" id="dituContent"></div>
+		</div>
+		
+
+		<include file="footer" />
+
+<script type="text/javascript" src="__PUBLIC__/mobile/js/map.js"></script>
+<script type="text/javascript">
+var width=document.body.clientWidth;
+var height=300+"px";
+
+document.getElementById('dituContent').style.width=width-40+"px";
+
+document.getElementById('dituContent').style.height=height
+
+/*获取终端设备屏幕的像素 宽高 && 重新影响百度地图定制的style*/
+$(window).resize(function () { 
+	var width=document.body.clientWidth;
+
+	document.getElementById('dituContent').style.width=width-40+"px";
+
+})
+
+</script>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />  
+	<title>商会资讯</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/information.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/landscape.css">
+	<script type="text/javascript" src="__PUBLIC__/mobile/js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/mobile/js/information.js"></script>
+<include file="header" />
+	<div class="y_content">
+		<!-- banner -->
+		<div class="y_banner">
+			<img src="__PUBLIC__/mobile/img/information_banner.png">
+		</div>
+		<!-- 选项卡 -->
+		<div class="tabsbox">
+			<div class="y_tabs">
+				<a>
+					<span>
+						最新资讯
+					</span>
+				</a>
+				<a>
+					<span>
+						最新动态
+					</span>
+				</a>
+				<a>
+					<span>
+						公告
+					</span>
+				</a>
+			</div>
+		</div>
+		<!-- 选项内容 -->
+		<div class="y_message">
+
+			<ul class="zixun"></ul>
+				
+			<ul class="dongtai"></ul>
+				
+			<ul class="gonggao"></ul>
+				
+		</div>
+
+		<include file="footer" />
+<script>
+	var zp = 1; 
+	var dp = 1;
+	var gp = 1;
+	dongtai();
+	zixun();
+	gonggao();
+	function dongtai(){
+		$.get('dongtai?p='+dp,function(res){
+			$('.dongtai').append(res);
+			dp++;
+		})
+	}
+
+	function zixun(){
+		$.get('zixun?p='+zp,function(res){
+			$('.zixun').append(res);
+			zp++;
+		})
+	}
+
+	function gonggao(){
+		$.get('gonggao?p='+gp,function(res){
+			$('.gonggao').append(res);
+			gp++;
+		})
+	}
+
+$(function(){
+	$('.tabsbox .y_tabs a').eq(0).find('span').addClass('tab_on0');
+ 
+  $('.tabsbox .y_tabs a').click(function(){
+  	var bannerHei=$('.y_banner').height();
+    var headerHei=$('.y_header').height();
+    var scrollHei=headerHei+bannerHei;
+    $("html,body").animate({scrollTop:scrollHei}, 100);
+
+    var index=$(this).index();
+    $('.tabsbox .y_tabs a').find('span').attr('class',' ');
+    $(this).find('span').addClass('tab_on'+index);
+  });
+
+  $(window).scroll(function () {
+
+      var maxScroll=$(document).height()-$(window).height();
+
+      if ($(window).scrollTop() >= maxScroll) {
+          if($('.tabsbox .y_tabs a span').hasClass('tab_on0')){
+        		zixun();
+          }
+         
+          if($('.tabsbox .y_tabs a span').hasClass('tab_on1')){
+   				dongtai();
+          }
+          if($('.tabsbox .y_tabs a span').hasClass('tab_on2')){
+          		gonggao();
+          }
+      }
+ 
+    });
+
+})
+	
+
+
+</script>
+</html>

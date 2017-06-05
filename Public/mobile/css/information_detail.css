@@ -1,0 +1,56 @@
+/*头部*/
+.y_header{background: none;}
+.y_header .detail_back{float: left;}
+.y_header .detail_home{float: right;}
+.y_header img{display: block;padding: 0.14rem;width: 0.45rem;}
+
+.y_content{margin:0 auto 0.833rem ;background: #e4e5e9;}
+.y_content .y_banner img{width: 100%;display: block;}
+/*详情标题*/
+.y_content .detail_title{background: #FFFFFF;padding:0.1rem 0.7684rem 0.1rem 0.1684rem; overflow: hidden;}
+.y_content .detail_title h3{color: #000000;font-size: 0.3032rem;font-weight: normal;}
+.y_content .detail_title .detail_title_txt{float: left;}
+.y_content .detail_title .detail_title_txt div{overflow: hidden;padding-top:0.0842rem; }
+.y_content .detail_title .detail_title_txt  div span{color: #999999;font-size: 0.1684rem;float: left;}
+.y_content .detail_title .detail_where{padding-right: 0.3rem;}
+.y_content .detail_title .detail_time{padding-right: 0.3rem;}
+
+.y_content .detail_title .detail_title_img{margin-right: -0.7684rem;}
+.y_content .detail_title .detail_title_img img{display: block;width: 0.2695rem;height: 0.3537rem;margin: 0.2rem 0 0 0;padding-left: 0.2rem;}
+/*详情内容*/
+.y_content .detail_txt{background: #FFFFFF;margin-top: 0.1684rem;padding:0.1347rem 0.1684rem; text-align: center;color: #666666;}
+.y_content .detail_txt p{padding:0.05rem 0;text-indent: 2em;text-align: justify;font-size: 0.2358rem;line-height:0.3368rem;}
+.y_content .detail_txt img{width: 66%;margin:0.1rem 0; }
+
+.y_content .y_bottom{padding: 0.2863rem 0;}
+.y_content .y_bottom p{color: #999999;font-size:  0.2021rem;text-align: center;line-height: 0.3031rem;}
+
+
+
+
+@media all and (orientation : landscape) { 
+
+.y_header{margin: 0 auto;background: none;height: 60px;color: #fff;text-align: center;position: fixed;top: 0;width: 100%;z-index: 20;line-height: 60px;}
+
+
+.y_header{background: none;}
+.y_header .detail_back{float: left;}
+.y_header .detail_home{float: right;}
+.y_header img{display: block;margin: 20px 20px 0 20px;width: 40px;padding: 0;}
+
+.y_content{margin:0 0 50px;  }
+/*底部导航*/
+.y_footer {overflow: hidden;margin: 0 auto;border-top: 1px solid #cccccc;position: fixed;bottom: 0;width: 100%;background: #ffffff;z-index: 20;}
+.y_footer a{padding: 6px 0 4px;display:block;width: 25%;text-align: center;float: left;color: #6a6a6a;font-size:16px;}
+.y_footer a img{width:22px;height: 20px;}
+.y_footer a span{display: block;}
+
+/*返回顶部*/
+.backtop{bottom:0.5rem;}
+}
+
+
+
+
+
+

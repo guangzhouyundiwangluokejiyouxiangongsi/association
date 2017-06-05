@@ -1,0 +1,40 @@
+
+.y_content{margin: 0.741rem auto 0.833rem;background: #e4e5e9;}
+/*company_message*/
+.y_content .company_message{padding:0.1684rem;background: #FFFFFF;}
+.y_content .company_message h2{font-weight:normal;color: #333333;font-size: 0.2358rem;}
+.y_content .company_message .tip{color: #ff0003;font-size: 0.1684rem;padding-top:0.1684rem;height: 0.2021rem;}
+
+.y_content .company_message #sex{overflow: hidden;margin-bottom:10px; }
+
+.y_content .company_message #sex span{font-size: 0.2358rem;display: block;float: left;color: #666666;text-align:left;line-height: 0.3537rem;height: 0.3537rem;}
+.y_content .company_message #sex> span{width: 20%;}
+.y_content .company_message #sex >div{float: left;}
+.y_content .company_message #sex >div>label{padding:0 0.2rem;background:url(../img/sex_default.png) no-repeat left center /20%;display: block;float: left;line-height: 0.3537rem;height: 0.3537rem;cursor: pointer;}
+.y_content .company_message #sex >div>label>input{float: left;width:0.1684rem; height:0.1684rem;display: none }
+
+.y_content .company_message .message_list >div{overflow: hidden;padding:0 0 0.2189rem 0;margin-bottom: 0.2189rem;border-bottom: 1px solid #dedede;}
+.y_content .company_message .message_list >div >span{font-size: 0.2358rem;display: block;float: left;color: #666666;width: 20%;text-align:left;line-height: 0.3537rem; }
+.y_content .company_message .message_list >div >input{width: 80%;float: right;color: #666666;height: 0.3537rem;line-height: 0.3537rem;font-size: 0.2358rem;border: none;}
+
+.y_content .company_message .message_list #check input{width: 48%;}
+.y_content .company_message .message_list #check .code{float: right;width: 32%;cursor: pointer;text-align: center;font-size: 0.2358rem;display: block;color: #eb3436;line-height: 0.3537rem; border: none;outline: none;background: #fff;}
+.y_content .company_message .message_list #check .code.con_click{color: #cccccc;}
+
+.y_content .company_message .submit{display: block;color: #CCC;font-size: 0.2526rem;width: 100%;cursor: pointer;line-height: 0.6905rem;background: #e4e5e9; border: none;height: 0.6905rem; }
+.y_content .company_message .submit.son_click{background: #eb3436;color: #FFF;}
+
+
+.y_content .y_bottom{padding: 0.2863rem 0;}
+.y_content .y_bottom p{color: #999999;font-size:  0.2021rem;text-align: center;line-height: 0.3031rem;}
+
+
+
+
+
+
+
+
+
+
+

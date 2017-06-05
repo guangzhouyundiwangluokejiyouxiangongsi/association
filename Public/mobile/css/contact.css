@@ -1,0 +1,23 @@
+
+
+.y_content{margin: 0.741rem auto 0.833rem;background: #e4e5e9;}
+.y_content .y_banner img{width: 100%;display: block;}
+/*联系我们*/
+.y_content .y_contact_txt{background: #ffffff;margin-top: 0.2021rem;padding:0.2526rem 0.1684rem;}
+.y_content .y_contact_txt .y_title{background: url(../img/about_title_bg.png) no-repeat center;line-height: 0.538rem;text-align: center;font-size: 0.2357rem;background-size: auto 100%;font-weight: normal;}
+.y_content .y_contact_txt h2{padding:0.2526rem 0 0.1684rem ;font-size: 0.2358rem;color: #333333;font-weight: normal;}
+.y_content .y_contact_txt p{font-size: 0.2021rem;line-height: 0.3032rem;color: #333333;}
+
+.y_content .y_bottom{padding: 0.2863rem 0;}
+.y_content .y_bottom p{color: #999999;font-size:  0.2021rem;text-align: center;line-height: 0.3031rem;}
+
+/*map*/
+.map{background: #FFFFFF;padding-bottom:0.2526rem ;}
+#platform >div>div>span.BMap_Marker.BMap_noprint{background: url(../img/us_cursor.gif) no-repeat !important;}
+#platform >div>div>span.BMap_Marker> .BMapLabel{display: none !important; }
+.anchorBL>a>img{position: absolute;}
+.BMap_cpyCtrl.anchorBL >span{position: absolute;bottom: 0;}
+.BMap_bubble_content {font-size: 14px;}
+
+
+

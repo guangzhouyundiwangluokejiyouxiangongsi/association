@@ -1,0 +1,43 @@
+.y_content{margin: 0.741rem auto 0.833rem;background: #e4e5e9;}
+/*banner*/
+.swiper-container{background: #FFFFFF;}
+.swiper-slide img{width: 100%;}
+/*关于商会*/
+.y_content .y_about_txt{background: #ffffff;padding: 30px 20px;}
+.y_content .y_about_txt .y_title{background: url(../img/about_title_bg.png) no-repeat center;line-height: 0.538rem;text-align: center;font-size: 0.2357rem;background-size: auto 100%;}
+.y_content .y_about_txt h3{font-size: 0.2189rem;font-weight: normal;color: #252525;margin-bottom:0.1684rem;}
+.y_content .y_about_txt p{font-size: 0.2021rem;line-height: 0.3031rem;color: #515151;text-align: center;text-align: justify;}
+.y_content .y_about_txt p span{color: #eb3436;}
+.y_content .y_about_txt a{font-size:0.1852rem;width:1.3305rem;color:#eb3436;margin:0.1684rem auto 0;height:0.3032rem;line-height:0.3032rem;display:block;border:1px dashed #eb3436;text-align:center;}
+/*商会理念*/
+.y_content .y_idea{background: url(../img/y_idea_bg.png);margin-top:0.2021rem;padding: 30px 20px;}
+.y_content .y_idea .y_title{background: url(../img/about_title_bg.png) no-repeat center;line-height: 0.538rem;text-align: center;font-size: 0.2357rem;background-size: auto 100%;}
+.y_content .y_idea h3{font-size: 0.2189rem;font-weight: normal;color: #252525;margin-bottom:0.1684rem;}
+.y_content .y_idea p{font-size: 0.2021rem;line-height: 0.3031rem;color: #515151;text-align: center;text-align: justify;}
+/*加入优势*/
+.y_content .y_advantage{padding: 0.2526rem 0.1684rem;}
+.y_content .y_advantage .y_title{line-height: 0.3031rem;height:  0.3031rem;border-left:0.0842rem solid #eb3436;}
+.y_content .y_advantage .y_title span{font-size: 0.2526rem;color: #252525;margin-left: 0.1684rem;float: left}
+.y_content .y_advantage .y_title a{background: url(../img/more_bg.png) no-repeat right center ;display: block;float: right;color: #eb3436;font-size: 0.2021rem;padding-right:0.2357rem;background-size: auto 68%;}
+
+.y_content .y_advantage li {height: 1.6842rem;padding:0 0.1684rem 0 2.4757rem;overflow: hidden;margin-top:0.2021rem;background: #fff;}
+.y_content .y_advantage li .img{display:block;margin-left: -2.4757rem;height:1.6842rem;width:2.3578rem;overflow: hidden;float: left;}
+.y_content .y_advantage li .img img{width: 100%;}
+.y_content .y_advantage li h3{font-size: 0.2189rem;color: #333333;line-height: 0.3368rem;height: 1.0105rem;overflow: hidden;font-weight: normal;padding-top:0.3368rem;}
+/*商会资讯 最新动态 商会承诺*/
+.y_content .y_message{padding: 0.2526rem 0.1684rem;}
+.y_content .y_message .y_title{line-height: 0.3031rem;height: 0.3032rem;border-left:0.0842rem solid #eb3436;overflow: hidden;}
+.y_content .y_message .y_title span{font-size: 0.2526rem;color: #252525;margin-left: 0.1684rem;float: left}
+.y_content .y_message .y_title a{background: url(../img/more_bg.png) no-repeat right center ;display: block;float: right;color: #eb3436;font-size: 0.2021rem;padding-right: 0.2358rem;  background-size: auto 68%; }
+
+.y_content .y_message li {height: 1.6842rem;padding:0 0.1684rem 0 2.4757rem;overflow: hidden;margin-top:0.2021rem;background: #fff;}
+.y_content .y_message li .img{display:block;margin-left: -2.4757rem;height: 1.6842rem;width: 2.3578rem;overflow: hidden;float: left;}
+.y_content .y_message li .img img{width: 100%;}
+.y_content .y_message li .txt{padding: 0.1684rem 0;}
+.y_content .y_message li h3{font-size: 0.2189rem;color: #333333;line-height: 0.3368rem;height: 0.3368rem;overflow: hidden;font-weight: normal;}
+.y_content .y_message li p{font-size: 0.2021rem;color: #999999;line-height: 0.3032rem;height: 0.6063rem
+;overflow: hidden;}
+.y_content .y_message li span{font-size: 0.2021rem;color: #999999;line-height: 0.3032rem;float: right;}
+/*底部*/
+.y_content .y_bottom{padding: 0.2863rem 0;}
+.y_content .y_bottom p{color: #999999;font-size: 0.1684rem;text-align: center;line-height: 0.2189rem;}

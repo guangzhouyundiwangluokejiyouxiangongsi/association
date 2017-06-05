@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />  
+	<title>关于商会</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/about.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/landscape.css">
+	<include file="Mobile/header" />
+	<div class="y_content">
+		<!-- banner -->
+		<div class="y_banner">
+			<img src="__PUBLIC__/mobile/img/about_banner.png">
+		</div>
+		<!-- 关于商会 -->
+		<div class="y_about_txt">
+			<h3 class="y_title">
+				{$article.title}
+			</h3>
+			{:htmlspecialchars_decode($article[content]);}
+		</div>
+		
+<include file="Mobile/footer" />
+</html>

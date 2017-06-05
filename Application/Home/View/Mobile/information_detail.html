@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />  
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/mobile/css/information_detail.css">
+	<title>商会资讯详情</title>
+	<include file="Mobile/header" />
+	<div class="y_content">
+		<!-- banner -->
+		<div class="y_banner">
+			<img src="__PUBLIC__/mobile/img/information_banner.png">
+		</div>
+		<!-- 详情标题 -->
+		<div class="detail_title">
+			<div class="detail_title_txt">
+				<h3>{$article.title}</h3>
+				<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+				<div>
+					<span class="detail_where">来源: {$article.link_source}</span>
+					<span class="detail_time">发布时间:{$article.publish_time}</span>
+					<span class="detail_where">{$article.click} 次浏览</span>
+				</div>
+			</div>
+			<div class="detail_title_img">
+				<img src="__PUBLIC__/mobile/img/detail_share.png">
+			</div>
+		</div>
+		<!-- 详情内容 -->
+		<div class="detail_txt">
+			{:htmlspecialchars_decode($article[content]);}
+		</div>
+		
+		<include file="Mobile/footer" />
+</html>
