@@ -415,7 +415,8 @@ class HomeController extends Controller {
 
     // 留言板
     public function messageboard()
-    {
+    {   
+        if (is_mobile()) redirect('/Mobile/messageboard');
         $this->display();
     }
 
