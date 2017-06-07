@@ -1,0 +1,250 @@
+[ 2017-06-07T10:11:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008213s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0088s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0078s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `yd_store_apply` [ RunTime:0.0104s ]
+SQL: SELECT `id`,`user_id` FROM `yd_store_apply` WHERE `apply_state` = 1 ORDER BY add_time desc LIMIT 11   [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `yd_store` [ RunTime:0.0102s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 700 LIMIT 1   [ RunTime:0.0079s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 62 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 516 LIMIT 1   [ RunTime:0.0076s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 514 LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 513 LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 505 LIMIT 1   [ RunTime:0.0078s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 501 LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 263 LIMIT 1   [ RunTime:0.0083s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 248 LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 243 LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 237 LIMIT 1   [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `yd_shop_link` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `yd_shop_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `yd_article` [ RunTime:0.0090s ]
+SQL: SELECT `article_id`,`title`,`thumb` FROM `yd_article` WHERE `cat_id` = 37 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0088s ]
+SQL: SELECT `article_id`,`title`,`thumb` FROM `yd_article` WHERE `cat_id` = 38 AND `is_open` = 1 ORDER BY add_time desc LIMIT 3   [ RunTime:0.0085s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 34 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0096s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 35 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0094s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 36 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000652s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 370 行.
+NOTIC: [8] Use of undefined constant aboutyun - assumed 'aboutyun' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 371 行.
+NOTIC: [8] Use of undefined constant elegant - assumed 'elegant' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 371 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant demeanourmoll - assumed 'demeanourmoll' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant gonggao - assumed 'gonggao' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant news - assumed 'news' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant newsmember - assumed 'newsmember' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant Joinus - assumed 'Joinus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 373 行.
+NOTIC: [8] Use of undefined constant Contactus - assumed 'Contactus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 374 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-06-07T10:11:40+08:00 ] 127.0.0.1 /Home/news/new_id/346.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0098s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0089s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0085s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `yd_article` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `yd_article` WHERE `article_id` = 346 AND `is_open` = 1 LIMIT 1   [ RunTime:0.0188s ]
+SQL: UPDATE `yd_article` SET `link_num`='327' WHERE `article_id` = 346 [ RunTime:0.0087s ]
+SQL: SELECT `article_id`,`title`,`thumb` FROM `yd_article` WHERE `cat_id` = 38 AND `is_open` = 1  [ RunTime:0.0103s ]
+NOTIC: [8] Undefined offset: 21 D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 134 行.
+SQL: SELECT `article_id`,`title`,`thumb` FROM `yd_article` WHERE `recommended` = 1 AND `is_open` = 1 ORDER BY add_time desc LIMIT 50   [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `yd_article_cat` [ RunTime:0.0108s ]
+SQL: SELECT `cat_name` FROM `yd_article_cat` WHERE `cat_id` = 38 LIMIT 1   [ RunTime:0.0091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000345s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 42 行.
+NOTIC: [8] Use of undefined constant aboutyun - assumed 'aboutyun' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 43 行.
+NOTIC: [8] Use of undefined constant elegant - assumed 'elegant' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 43 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 44 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 44 行.
+NOTIC: [8] Use of undefined constant demeanourmoll - assumed 'demeanourmoll' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 44 行.
+NOTIC: [8] Use of undefined constant gonggao - assumed 'gonggao' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 44 行.
+NOTIC: [8] Use of undefined constant news - assumed 'news' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 44 行.
+NOTIC: [8] Use of undefined constant Joinus - assumed 'Joinus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 45 行.
+NOTIC: [8] Use of undefined constant Contactus - assumed 'Contactus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 46 行.
+NOTIC: [8] Use of undefined constant link_source - assumed 'link_source' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 135 行.
+NOTIC: [8] Use of undefined constant link_author - assumed 'link_author' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\70bbadd43c49d37f0edd2f57837c51c9.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002918s ]
+
+[ 2017-06-07T10:11:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-06-07T10:11:44+08:00 ] 127.0.0.1 /Home/elegant/new_id/150.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0088s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0079s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `yd_article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `yd_article` WHERE `article_id` = 150 AND `is_open` = 1 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `yd_article` SET `link_num`='36' WHERE `article_id` = 150 [ RunTime:0.0079s ]
+SQL: SELECT `article_id`,`title` FROM `yd_article` WHERE `cat_id` = 37 AND `is_open` = 1  [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 39 行.
+NOTIC: [8] Use of undefined constant aboutyun - assumed 'aboutyun' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 40 行.
+NOTIC: [8] Use of undefined constant elegant - assumed 'elegant' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 40 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant demeanourmoll - assumed 'demeanourmoll' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant gonggao - assumed 'gonggao' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant news - assumed 'news' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant newsmember - assumed 'newsmember' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant Joinus - assumed 'Joinus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 42 行.
+NOTIC: [8] Use of undefined constant Contactus - assumed 'Contactus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 43 行.
+NOTIC: [8] Use of undefined constant link_source - assumed 'link_source' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 118 行.
+NOTIC: [8] Use of undefined constant link_author - assumed 'link_author' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-06-07T10:12:40+08:00 ] 127.0.0.1 /Home/elegant/new_id/150.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0087s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0084s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `yd_article` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `yd_article` WHERE `article_id` = 150 AND `is_open` = 1 LIMIT 1   [ RunTime:0.0095s ]
+SQL: UPDATE `yd_article` SET `link_num`='37' WHERE `article_id` = 150 [ RunTime:0.0077s ]
+SQL: SELECT `article_id`,`title` FROM `yd_article` WHERE `cat_id` = 37 AND `is_open` = 1  [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 39 行.
+NOTIC: [8] Use of undefined constant aboutyun - assumed 'aboutyun' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 40 行.
+NOTIC: [8] Use of undefined constant elegant - assumed 'elegant' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 40 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant demeanourmoll - assumed 'demeanourmoll' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant gonggao - assumed 'gonggao' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant news - assumed 'news' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant newsmember - assumed 'newsmember' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant Joinus - assumed 'Joinus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 42 行.
+NOTIC: [8] Use of undefined constant Contactus - assumed 'Contactus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 43 行.
+NOTIC: [8] Use of undefined constant link_source - assumed 'link_source' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 118 行.
+NOTIC: [8] Use of undefined constant link_author - assumed 'link_author' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-06-07T10:14:14+08:00 ] 127.0.0.1 /Home/elegant?new_id=151
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0085s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `yd_article` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `yd_article` WHERE `article_id` = 151 AND `is_open` = 1 LIMIT 1   [ RunTime:0.0083s ]
+SQL: UPDATE `yd_article` SET `link_num`='98' WHERE `article_id` = 151 [ RunTime:0.0076s ]
+SQL: SELECT `article_id`,`title` FROM `yd_article` WHERE `cat_id` = 37 AND `is_open` = 1  [ RunTime:0.0084s ]
+NOTIC: [8] Undefined offset: 8 D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 181 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 39 行.
+NOTIC: [8] Use of undefined constant aboutyun - assumed 'aboutyun' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 40 行.
+NOTIC: [8] Use of undefined constant elegant - assumed 'elegant' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 40 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant demeanourmoll - assumed 'demeanourmoll' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant gonggao - assumed 'gonggao' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant news - assumed 'news' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant newsmember - assumed 'newsmember' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 41 行.
+NOTIC: [8] Use of undefined constant Joinus - assumed 'Joinus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 42 行.
+NOTIC: [8] Use of undefined constant Contactus - assumed 'Contactus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 43 行.
+NOTIC: [8] Use of undefined constant link_source - assumed 'link_source' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 118 行.
+NOTIC: [8] Use of undefined constant link_author - assumed 'link_author' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\73f2a0e8c4e7fd754848bc1645a13d12.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
