@@ -38,7 +38,7 @@ $(function(){
        $('.code').html( i +'秒后重新获取');
        $('.code').attr('disabled',true);
     i--;
-    if(i == 0){clearInterval(time); 
+    if(i < 0){clearInterval(time); 
       $('.code').html('重新获取');
       $('.code').removeClass('con_click');
       $('.code').attr('disabled',false);
