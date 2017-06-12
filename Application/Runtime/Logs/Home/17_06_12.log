@@ -1,0 +1,357 @@
+[ 2017-06-12T09:28:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010589s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0094s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `yd_store_apply` [ RunTime:0.0111s ]
+SQL: SELECT `id`,`user_id` FROM `yd_store_apply` WHERE `apply_state` = 1 ORDER BY add_time desc LIMIT 11   [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `yd_store` [ RunTime:0.0112s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 700 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 62 LIMIT 1   [ RunTime:0.0086s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 516 LIMIT 1   [ RunTime:0.0088s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 514 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 513 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 505 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 501 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 263 LIMIT 1   [ RunTime:0.0086s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 248 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 243 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 237 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `yd_shop_link` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `yd_shop_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `yd_article` [ RunTime:0.0096s ]
+SQL: SELECT `article_id`,`title`,`thumb` FROM `yd_article` WHERE `cat_id` = 37 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0087s ]
+SQL: SELECT `article_id`,`title`,`thumb` FROM `yd_article` WHERE `cat_id` = 38 AND `is_open` = 1 ORDER BY add_time desc LIMIT 3   [ RunTime:0.0096s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 34 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0087s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 35 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0094s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 36 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000761s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001138s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 370 行.
+NOTIC: [8] Use of undefined constant aboutyun - assumed 'aboutyun' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 371 行.
+NOTIC: [8] Use of undefined constant elegant - assumed 'elegant' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 371 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant demeanourmoll - assumed 'demeanourmoll' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant gonggao - assumed 'gonggao' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant news - assumed 'news' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant newsmember - assumed 'newsmember' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant Joinus - assumed 'Joinus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 373 行.
+NOTIC: [8] Use of undefined constant Contactus - assumed 'Contactus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 374 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003411s ]
+
+[ 2017-06-12T09:29:06+08:00 ] 127.0.0.1 /Home/ajax_jump
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0096s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0089s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0088s ]
+
+[ 2017-06-12T09:29:13+08:00 ] 127.0.0.1 /Home/aboutyun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0097s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0088s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0092s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 38 行.
+NOTIC: [8] Use of undefined constant aboutyun - assumed 'aboutyun' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 39 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 40 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 40 行.
+NOTIC: [8] Use of undefined constant demeanourmoll - assumed 'demeanourmoll' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 40 行.
+NOTIC: [8] Use of undefined constant gonggao - assumed 'gonggao' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 40 行.
+NOTIC: [8] Use of undefined constant news - assumed 'news' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 40 行.
+NOTIC: [8] Use of undefined constant newsmember - assumed 'newsmember' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 40 行.
+NOTIC: [8] Use of undefined constant Joinus - assumed 'Joinus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 41 行.
+NOTIC: [8] Use of undefined constant Contactus - assumed 'Contactus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\12e9a3cad233f95338e158bd3cde9b5d.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2017-06-12T09:29:19+08:00 ] 127.0.0.1 /Home/messageboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0084s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0076s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-06-12T09:29:22+08:00 ] 127.0.0.1 /Home/messageboard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0094s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0086s ]
+
+[ 2017-06-12T09:29:22+08:00 ] 127.0.0.1 /Mobile/messageboard
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002718s ]
+
+[ 2017-06-12T19:20:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0088s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0085s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `yd_store_apply` [ RunTime:0.0101s ]
+SQL: SELECT `id`,`user_id` FROM `yd_store_apply` WHERE `apply_state` = 1 ORDER BY add_time desc LIMIT 11   [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `yd_store` [ RunTime:0.0103s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 700 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 62 LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 516 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 514 LIMIT 1   [ RunTime:0.0079s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 513 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 505 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 501 LIMIT 1   [ RunTime:0.0079s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 263 LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 248 LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 243 LIMIT 1   [ RunTime:0.0082s ]
+SQL: SELECT `store_id` FROM `yd_store` WHERE `user_id` = 237 LIMIT 1   [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `yd_shop_link` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `yd_shop_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `yd_article` [ RunTime:0.0093s ]
+SQL: SELECT `article_id`,`title`,`thumb` FROM `yd_article` WHERE `cat_id` = 37 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0092s ]
+SQL: SELECT `article_id`,`title`,`thumb` FROM `yd_article` WHERE `cat_id` = 38 AND `is_open` = 1 ORDER BY add_time desc LIMIT 3   [ RunTime:0.0088s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 34 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0086s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 35 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0100s ]
+SQL: SELECT `article_id`,`title`,`add_time` FROM `yd_article` WHERE `cat_id` = 36 AND `is_open` = 1 ORDER BY add_time desc LIMIT 10   [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000627s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 370 行.
+NOTIC: [8] Use of undefined constant aboutyun - assumed 'aboutyun' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 371 行.
+NOTIC: [8] Use of undefined constant elegant - assumed 'elegant' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 371 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant demeanour - assumed 'demeanour' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant demeanourmoll - assumed 'demeanourmoll' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant gonggao - assumed 'gonggao' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant news - assumed 'news' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant newsmember - assumed 'newsmember' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 372 行.
+NOTIC: [8] Use of undefined constant Joinus - assumed 'Joinus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 373 行.
+NOTIC: [8] Use of undefined constant Contactus - assumed 'Contactus' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 374 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' D:\wamp64\www\association\public_html\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2017-06-12T19:20:59+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-06-12T19:21:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Use of undefined constant DOMAIN - assumed 'DOMAIN' D:\wamp64\www\association\public_html\Application\Home\Controller\HomeController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `yd_friend_link` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `yd_friend_link` WHERE `is_show` = 1 ORDER BY orderby  [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `yd_navigation` [ RunTime:0.0085s ]
+SQL: SELECT `title` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0077s ]
+SQL: SELECT `description` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+SQL: SELECT `keywords` FROM `yd_navigation` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0081s ]
+
+[ 2017-06-12T19:21:16+08:00 ] 127.0.0.1 /Mobile/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `yd_article` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `yd_article` WHERE `article_id` = 274 AND `cat_id` = 42 AND `is_open` = 1 LIMIT 1   [ RunTime:0.0095s ]
+SQL: SELECT * FROM `yd_article` WHERE `article_id` = 275 AND `cat_id` = 42 AND `is_open` = 1 LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yd_article` WHERE `article_id` = 276 AND `cat_id` = 42 AND `is_open` = 1 LIMIT 1   [ RunTime:0.0085s ]
+SQL: SELECT * FROM `yd_article` WHERE `cat_id` = 34 AND `is_open` = 1 ORDER BY recommended desc,add_time desc LIMIT 3   [ RunTime:0.0189s ]
+NOTIC: [8] Undefined variable: x D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SELECT * FROM `yd_article` WHERE `cat_id` = 35 AND `is_open` = 1 ORDER BY recommended desc,add_time desc LIMIT 3   [ RunTime:0.0211s ]
+NOTIC: [8] Undefined variable: x D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\wamp64\www\association\public_html\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+SQL: SELECT * FROM `yd_article` WHERE `cat_id` = 43 AND `is_open` = 1 LIMIT 1   [ RunTime:0.0091s ]
+NOTIC: [2] Missing argument 2 for getSubstr(), called in D:\wamp64\www\association\public_html\Application\Home\Controller\MobileController.class.php on line 37 and defined D:\wamp64\www\association\public_html\Application\Home\Common\function.php 第 3 行.
+NOTIC: [2] Missing argument 3 for getSubstr(), called in D:\wamp64\www\association\public_html\Application\Home\Controller\MobileController.class.php on line 37 and defined D:\wamp64\www\association\public_html\Application\Home\Common\function.php 第 3 行.
+NOTIC: [8] Undefined variable: length D:\wamp64\www\association\public_html\Application\Home\Common\function.php 第 4 行.
+NOTIC: [8] Undefined variable: start D:\wamp64\www\association\public_html\Application\Home\Common\function.php 第 5 行.
+NOTIC: [8] Undefined variable: length D:\wamp64\www\association\public_html\Application\Home\Common\function.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002390s ]
+
+[ 2017-06-12T19:21:17+08:00 ] 127.0.0.1 /Public/mobile/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-06-12T19:21:20+08:00 ] 127.0.0.1 /Mobile/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2017-06-12T19:35:12+08:00 ] 127.0.0.1 /Mobile/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+

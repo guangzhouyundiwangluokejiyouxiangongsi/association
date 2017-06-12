@@ -86,28 +86,28 @@
 				
 				<div id="company_name">
 					<span>企业名称</span>
-					<input type="text" name="storename" placeholder="4-16位数的企业名称" onblur="check_company_name()"></input>
+					<input type="text" name="storename" maxlength="16" placeholder="4-16位数的企业名称" onblur="check_company_name()"></input>
 				</div>
 				<div id="user">
 					<span>账号</span>
-					<input type="text" name="sellername" placeholder="字母开头6-16位数字和英文" onblur="check_user();"></input>
+					<input type="text" name="sellername" maxlength="16" placeholder="字母开头6-16位数字和英文" onblur="check_user();"></input>
 				</div>
 				<div id="password">
 					<span>密码</span>
-					<input type="password" name="password" placeholder="6-16位数字和英文" onblur="check_password();"></input>
+					<input type="password" name="password" maxlength="16" placeholder="6-16位数字和英文" onblur="check_password();"></input>
 				</div>
 				<div id="user_name">
 					<span>昵称</span>
-					<input type="text" name="nickname" placeholder="由字母开头6-16位数字、英文或下划线" onblur="check_user_name();"></input>
+					<input type="text" name="nickname" maxlength="16" placeholder="由字母开头2-16位数字、英文或下划线" onblur="check_user_name();"></input>
 				</div>
 				<div id="mobile">
 					<span>手机号码</span>
-					<input type="text" name="username" placeholder="请输入手机号码" onblur="check_telephone();"></input>
+					<input type="text" name="username" maxlength="11" placeholder="请输入手机号码" onblur="check_telephone();"></input>
 				</div>
 				<div id="check">
 					<span>验证码</span>
 					<button class="code">获取验证码</button>
-					<input type="text" name="code" placeholder="请输入您的验证码" id="code"></input>
+					<input type="text" name="code" maxlength="6" placeholder="请输入您的验证码" id="code"></input>
 
 				</div>
 			</div>

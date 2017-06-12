@@ -109,7 +109,7 @@ var nickname = false;
       var conInfo = /^1[3|4|5|7|8][0-9]{9}$/;/*手机号码*/
       // var pass = /^[A-Za-z0-9]{6,20}$/;//密码
       var pass = /(?!^\\d+$)(?!^[a-zA-Z]+$)(?!^[_#@]+$).{6,16}/;//密码
-     var navname = /^[a-zA-Z\u4E00-\u9FA5]{2,}$/;/*验证昵称*/
+     var navname = /^[a-zA-Z\u4E00-\u9FA5]{2,16}$/;/*验证昵称*/
        // var navname =/^\d+$/;
 
       $(".company_name input").blur(function(){/*企业名称*/

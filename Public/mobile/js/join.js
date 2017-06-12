@@ -148,7 +148,7 @@ function check_user(obj){
 }
  //  密码    
 function check_password(obj){
-  var reg= /(?!^\\d+$)(?!^[a-zA-Z]+$)(?!^[_#@]+$).{6,}/;
+  var reg= /(?!^\\d+$)(?!^[a-zA-Z]+$)(?!^[_#@]+$).{6,16}/;
   if($('#password input').val()==''){
     $('.tip').html('你的密码不能为空！')
     password = false;
@@ -168,7 +168,7 @@ function check_password(obj){
 }
  //  昵称
 function check_user_name(obj){
-  var reg= /^[a-zA-Z\u4E00-\u9FA5]{2,}$/;
+  var reg= /^[a-zA-Z\u4E00-\u9FA5]{2,16}$/;
   if($('#user_name input').val()==''){
     $('.tip').html('你的昵称不能为空！');
     nickname = false;
