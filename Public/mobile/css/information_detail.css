@@ -2,10 +2,10 @@
 .y_header{background: none;}
 .y_header .detail_back{float: left;}
 .y_header .detail_home{float: right;}
-.y_header img{display: block;padding: 0.14rem;width: 0.45rem;}
+.y_header img{display: block;/*padding: 0.14rem;*/width: 0.45rem;}
 
 .y_content{margin:0 auto 0.833rem ;background: #e4e5e9;}
-.y_content .y_banner img{width: 100%;display: block;}
+.y_content .y_banner img{width: 100%;display: block;margin-top: 47px}
 /*详情标题*/
 .y_content .detail_title{background: #FFFFFF;padding:0.1rem 0.7684rem 0.1rem 0.1684rem; overflow: hidden;}
 .y_content .detail_title h3{color: #000000;font-size: 0.3032rem;font-weight: normal;}

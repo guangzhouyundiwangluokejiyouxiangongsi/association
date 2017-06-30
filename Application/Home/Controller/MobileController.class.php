@@ -7,7 +7,7 @@ class MobileController extends Controller {
 
     public function index()
     {   
-        if (!is_mobile()) redirect('/Home/index');
+        // if (!is_mobile()) redirect('/Home/index');
         $about = M('article')->where(array('article_id'=>274,'cat_id'=>42,'is_open'=>1))->find();
         $about['content'] = mb_substr(strip_tags(htmlspecialchars_decode($about['content'])),0,85).'...';
         $linian = M('article')->where(array('article_id'=>275,'cat_id'=>42,'is_open'=>1))->find();
